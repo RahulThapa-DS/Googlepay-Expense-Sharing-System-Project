@@ -63,9 +63,10 @@ cd expense-tracker-python
    ```bash
    python main.py
    ```
+   ### Net Balance
 --- Final Net Balance Summary ---
-         Paid  Fair_Share  Net_Balance
-Rahul  1800.0      1375.0        425.0
-Amit    800.0       775.0         25.0
-Priya  1500.0      1075.0        425.0
-Neha      0.0       675.0       -675.0
+       Paid  Fair_Share  Net_Balance
+Rahul  1800      1375.0        425.0
+Amit    800      1075.0       -275.0
+Priya  1500       975.0        525.0
+Neha      0       675.0       -675.0
