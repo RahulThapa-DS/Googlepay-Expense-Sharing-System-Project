@@ -63,10 +63,11 @@ The pipeline generates two core visual insights:
    ```bash
    python main.py
    ```
---- Final Net Balance Summary ---
-         Paid  Fair_Share  Net_Balance
-Rahul  1800.0      1375.0        425.0
-Amit    800.0       775.0         25.0
-Priya  1500.0      1075.0        425.0
-Neha      0.0       675.0       -675.0
+## --- Raw Expense Dataset ---
+   Transaction_ID  Payer  Amount Category               Split_Among     Status
+0             101  Rahul    1200     Food  Rahul, Amit, Priya, Neha  Completed
+1             102   Amit     800     Fuel               Rahul, Amit  Completed
+2             103  Priya    1500    Hotel  Rahul, Amit, Priya, Neha  Completed
+3             104  Rahul     600   Snacks              Rahul, Priya    Pending
+4             105   Neha     400      Cab                Neha, Amit   Refunded
 
