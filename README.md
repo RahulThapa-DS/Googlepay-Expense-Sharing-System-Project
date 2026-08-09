@@ -1,5 +1,3 @@
-# Googlepay-Expense-Sharing-System-Project
-
 # 💳 Google Pay-Inspired Expense Sharing & Settlement Engine
 
 A Python-based data science utility designed to calculate fair-share bill splitting, reconcile group net balances, handle transaction edge cases (like refunds and pending payments), and visualize spending behavior.
