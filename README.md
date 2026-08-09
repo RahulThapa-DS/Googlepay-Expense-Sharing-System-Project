@@ -54,12 +54,16 @@ The pipeline generates two core visual insights:
 ```bash
 git clone [https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Project](https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Project)
 cd expense-tracker-python
-
+```
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
+### 3. Run the System
+```bash
 python main.py
 ```
-## 📈 result and visualise output
+## 📈 Result And Visualise Output
 ```bash
 --- Raw Expense Dataset ---
    Transaction_ID  Payer  Amount Category               Split_Among     Status
@@ -75,5 +79,3 @@ Rahul  1800      1375.0        425.0
 Amit    800      1075.0       -275.0
 Priya  1500       975.0        525.0
 Neha      0       675.0       -675.0
-<img width="920" height="390" alt="image" src="https://github.com/user-attachments/assets/a48d9183-83a2-475c-b398-e224041ec7e2" />
-
