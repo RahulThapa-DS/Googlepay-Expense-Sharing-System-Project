@@ -63,22 +63,3 @@ cd expense-tracker-python
    ```bash
    python main.py
    ```
-   ### Net Balance
---- Final Net Balance Summary ---
-       Paid  Fair_Share  Net_Balance
-Rahul  1800      1375.0        425.0
-Amit    800      1075.0       -275.0
-Priya  1500       975.0        525.0
-Neha      0       675.0       -675.0
- {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "--- Raw Expense Dataset ---\n",
-      "   Transaction_ID  Payer  Amount Category               Split_Among     Status\n",
-      "0             101  Rahul    1200     Food  Rahul, Amit, Priya, Neha  Completed\n",
-      "1             102   Amit     800     Fuel               Rahul, Amit  Completed\n",
-      "2             103  Priya    1500    Hotel  Rahul, Amit, Priya, Neha  Completed\n",
-      "3             104  Rahul     600   Snacks              Rahul, Priya    Pending\n",
-      "4             105   Neha     400      Cab                Neha, Amit   Refunded\n"
-     ]
