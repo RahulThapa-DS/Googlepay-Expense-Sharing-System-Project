@@ -53,11 +53,24 @@ The pipeline generates two core visual insights:
 ### 1. Clone Repository
 ```bash
 git clone [https://github.com/YOUR_USERNAME/expense-tracker-python.git](https://github.com/YOUR_USERNAME/expense-tracker-python.git)
-cd expense-tracker-pythonpip install -r requirements.txt
+cd expense-tracker-python
+
+pip install -r requirements.txt
+
 python main.py
+
+--- Raw Expense Dataset ---
+   Transaction_ID  Payer  Amount Category               Split_Among     Status
+0             101  Rahul    1200     Food  Rahul, Amit, Priya, Neha  Completed
+1             102   Amit     800     Fuel               Rahul, Amit  Completed
+2             103  Priya    1500    Hotel  Rahul, Amit, Priya, Neha  Completed
+3             104  Rahul     600   Snacks              Rahul, Priya    Pending
+4             105   Neha     400      Cab                Neha, Amit   Refunded
+
 --- Final Net Balance Summary ---
-         Paid  Fair_Share  Net_Balance
-Rahul  1800.0      1375.0        425.0
-Amit    800.0       775.0         25.0
-Priya  1500.0      1075.0        425.0
-Neha      0.0       675.0       -675.0
+       Paid  Fair_Share  Net_Balance
+Rahul  1800      1375.0        425.0
+Amit    800      1075.0       -275.0
+Priya  1500       975.0        525.0
+Neha      0       675.0       -675.0
+
