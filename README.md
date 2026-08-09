@@ -52,5 +52,15 @@ The pipeline generates two core visual insights:
 
 ### 1. Clone Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/expense-tracker-python.git](https://github.com/YOUR_USERNAME/expense-tracker-python.git)
+git clone [https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Project](https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Project)
 cd expense-tracker-python
+
+pip install -r requirements.txt
+python main.py
+--- Final Net Balance Summary ---
+         Paid  Fair_Share  Net_Balance
+Rahul  1800.0      1375.0        425.0
+Amit    800.0       775.0         25.0
+Priya  1500.0      1075.0        425.0
+Neha      0.0       675.0       -675.0
+
