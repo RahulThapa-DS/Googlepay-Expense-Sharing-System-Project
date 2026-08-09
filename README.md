@@ -59,6 +59,8 @@ pip install -r requirements.txt
 
 python main.py
 
+### 1. Clone Repository
+```bash
 --- Raw Expense Dataset ---
    Transaction_ID  Payer  Amount Category               Split_Among     Status
 0             101  Rahul    1200     Food  Rahul, Amit, Priya, Neha  Completed
