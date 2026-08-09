@@ -75,4 +75,5 @@ Rahul  1800      1375.0        425.0
 Amit    800      1075.0       -275.0
 Priya  1500       975.0        525.0
 Neha      0       675.0       -675.0
+<img width="920" height="390" alt="image" src="https://github.com/user-attachments/assets/a48d9183-83a2-475c-b398-e224041ec7e2" />
 
