@@ -56,11 +56,11 @@ git clone [https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Pro
 cd expense-tracker-python
 ```
 ### 2. Install Dependencies
-```bash
+```
 pip install -r requirements.txt
 ```
 ### 3. Run the System
-```bash
+```
 python main.py
 ```
 ## 📈 Result And Visualise Output
