@@ -52,7 +52,7 @@ The pipeline generates two core visual insights:
 
 ### 1. Clone Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/expense-tracker-python.git](https://github.com/YOUR_USERNAME/expense-tracker-python.git)
+git clone [https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Project](https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Project)
 cd expense-tracker-python
 
 pip install -r requirements.txt
