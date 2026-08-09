@@ -50,13 +50,19 @@ The pipeline generates two core visual insights:
 
 ## 🚀 How to Run Locally
 
-### 1. Clone Repository
-```bash
-git clone [https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Project](https://github.com/RahulThapa-DS/Googlepay-Expense-Sharing-System-Project)
-cd expense-tracker-python
-
-pip install -r requirements.txt
-python main.py
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/expense-tracker-python.git]
+   cd expense-tracker-python
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the application:
+   ```bash
+   python main.py
+   ```
 --- Final Net Balance Summary ---
          Paid  Fair_Share  Net_Balance
 Rahul  1800.0      1375.0        425.0
