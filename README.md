@@ -79,16 +79,18 @@ Rahul  1800      1375.0        425.0
 Amit    800      1075.0       -275.0
 Priya  1500       975.0        525.0
 Neha      0       675.0       -675.0
-![Chart Output](https://user-images.githubusercontent.com/.../image.png)
+![Chart Output](<img width="920" height="390" alt="image" src="https://github.com/user-attachments/assets/db6997ed-8bc6-4df3-869d-47da7427432e" />)
+
 ![Expense Visualization Plot](images/output.png)
 git add .
-git commit -m "Add output chart screenshot to README"
+git commit -m "<img width="920" height="390" alt="image" src="https://github.com/user-attachments/assets/db6997ed-8bc6-4df3-869d-47da7427432e" />
+"
 git push origin main
 ## 📊 Analytics & Visual Output
 
 The application generates visualizations for category distribution and net balance status:
 
-![Expense Tracker Visualization](images/output.png)
+![Expense Tracker Visualization](<img width="920" height="390" alt="image" src="https://github.com/user-attachments/assets/db6997ed-8bc6-4df3-869d-47da7427432e" />)
 
 * **Category Distribution:** Shows percentage breakdown of spending across categories.
 * **Net Balance Overview:** Color-coded status (**Green** = Receives refund, **Red** = Owes balance).
