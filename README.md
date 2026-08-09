@@ -58,8 +58,8 @@ cd expense-tracker-python
 pip install -r requirements.txt
 
 python main.py
-
-### 1. Clone Repository
+```
+### 2. Report
 ```bash
 --- Raw Expense Dataset ---
    Transaction_ID  Payer  Amount Category               Split_Among     Status
