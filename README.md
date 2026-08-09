@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 python main.py
 ```
-### 2. Report
+## 📈 result and visualise output
 ```bash
 --- Raw Expense Dataset ---
    Transaction_ID  Payer  Amount Category               Split_Among     Status
