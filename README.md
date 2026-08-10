@@ -79,21 +79,4 @@ Rahul  1800      1375.0        425.0
 Amit    800      1075.0       -275.0
 Priya  1500       975.0        525.0
 Neha      0       675.0       -675.0
-
-
-## ⚙️ Methodology & Settlement Logic
-
-### 1. Data Cleaning
-Transactions with the status `Refunded` are filtered out prior to processing to prevent skewing individual fair share calculations.
-
-### 2. Fair Share Mathematical Logic
-For each valid transaction $i$:
-
-$$\text{Individual Share}_i = \frac{\text{Transaction Amount}_i}{\text{Number of Participants}_i}$$
-
-### 3. Net Balance Formula
-
-$$\text{Net Balance} = \text{Total Amount Paid} - \text{Total Fair Share}$$
-
-* **Positive Balance (+):** Participant overpaid $\rightarrow$ Receives reimbursement.
-* **Negative Balance (-):** Participant underpaid $\rightarrow$ Owes money to the pool.
+```
