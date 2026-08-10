@@ -29,15 +29,15 @@ In group expenses, individual contributions are rarely equal, leading to complex
 Transactions with status `Refunded` are removed prior to processing to avoid skewing individual fair share calculations.
 
 ### 2. Fair Share Mathematical Logic
-For each valid transaction $i$:
-$$\text{Individual Share} = \frac{\text{Transaction Amount}_i}{\text{Number of Participants}_i}$$
+For each valid transaction :
+Individual Share = Transaction Amount / Number of Participants
 
 ### 3. Net Balance Formula
 
 Net Balance = Total Amount Paid - Total Fair Share
 
 * **Positive Balance (+):** Participant overpaid and Receives reimbursement.
-* **Negative Balance (-):** Participant underpaid $\rightarrow$ Owes money to the pool.
+* **Negative Balance (-):** Participant underpaid and Owes money to the pool.
 
 ---
 
