@@ -34,9 +34,9 @@ $$\text{Individual Share} = \frac{\text{Transaction Amount}_i}{\text{Number of P
 
 ### 3. Net Balance Formula
 
-$$\text{Net Balance} = \text{Total Amount Paid} - \text{Total Fair Share}$$
+Net Balance = Total Amount Paid - Total Fair Share
 
-* **Positive Balance (+):** Participant overpaid $\rightarrow$ Receives reimbursement.
+* **Positive Balance (+):** Participant overpaid and Receives reimbursement.
 * **Negative Balance (-):** Participant underpaid $\rightarrow$ Owes money to the pool.
 
 ---
