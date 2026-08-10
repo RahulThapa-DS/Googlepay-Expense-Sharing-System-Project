@@ -33,6 +33,7 @@ For each valid transaction $i$:
 $$\text{Individual Share} = \frac{\text{Transaction Amount}_i}{\text{Number of Participants}_i}$$
 
 ### 3. Net Balance Formula
+
 $$\text{Net Balance} = \text{Total Amount Paid} - \text{Total Fair Share}$$
 
 * **Positive Balance (+):** Participant overpaid $\rightarrow$ Receives reimbursement.
